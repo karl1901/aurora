@@ -57,11 +57,19 @@
 
 执行如下命令一键安装 Aurora 博客：
 
+1、CentOS
+
 ```shell
 curl -sSL https://kangxianghui.top/api/Util/OnlineView/aurora_shell/aurora_install.sh -o aurora_install.sh && sh aurora_install.sh
 ```
 
-此命令适用于：CentOS 操作系统
+2、Ubuntu
+
+```shell
+curl -sSL https://kangxianghui.top/api/Util/OnlineView/aurora_shell/aurora_install.sh -o aurora_install.sh && sudo bash aurora_install.sh
+```
+
+一键部署脚本适用于：CentOS 7.9、Ubuntu 22.04 操作系统
 
 ## 部署
 
